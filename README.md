@@ -65,25 +65,5 @@ Portfolio Website
 
 This repository is intended to host my personal website using GitHub Pages.
 
-Planned website URL:
-https://manasvinabhishek.github.io/Personal-profile-web/
-
-Local Setup
-
-1. Clone this repository.
-2. Open "index.html" in a browser.
-3. No additional dependencies are required for the static website.
-
-Deployment
-
-Enable GitHub Pages under Settings → Pages, select the "main" branch and "/ (root)", and save.
-
-Connect
-
-GitHub: https://github.com/manasvinAbhishek
-
----
-
-Building technical mastery through continuous learning, experimentation, and meaningful problem-solving.
 
 © 2026 Abhishek Anand. All rights reserved.
