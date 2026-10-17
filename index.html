@@ -1,78 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-  <title>Abhishek Anand | Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f7fb;
-      color: #17243a;
-      line-height: 1.6;
-    }
-    header {
-      background: #14243d;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 10px;
-    }
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-    section {
-      background: white;
-      padding: 25px;
-      margin: 20px 0;
-      border-radius: 12px;
-    }
-    @media (max-width: 600px) {
-      header { padding: 35px 15px; }
-      section { padding: 18px; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio of Abhishek Anand — digital transformation, agricultural digital public infrastructure, GIS, and technology delivery.">
+<meta name="theme-color" content="#0b1222">
+<title>Abhishek Anand | Digital Transformation & Technology</title>
+<style>
+:root{color-scheme:dark;--bg:#090f1d;--surface:#111c30;--line:#29374d;--text:#f1f5fb;--muted:#b2bfd0;--accent:#75ddcb;--blue:#9bbdff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--accent)}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}.topbar{position:sticky;top:0;z-index:10;background:#090f1df0;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.nav{display:flex;justify-content:space-between;align-items:center;gap:18px;min-height:72px}.brand{font-weight:800;color:var(--text);text-decoration:none;letter-spacing:.02em}.navlinks{display:flex;flex-wrap:wrap;gap:18px}.navlinks a{text-decoration:none;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--accent)}.hero{padding:108px 0 90px;background:radial-gradient(ellipse at 85% 10%,#1a4560 0%,transparent 55%)}.eyebrow{text-transform:uppercase;letter-spacing:.2em;color:var(--accent);font-size:.78rem;font-weight:750}.hero h1{font-size:clamp(2.8rem,7vw,5.5rem);line-height:1.1;letter-spacing:-.055em;margin:15px 0 20px;max-width:850px}.hero p{max-width:730px;color:var(--muted);font-size:1.17rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:11px 19px;border:1px solid var(--accent);border-radius:10px;text-decoration:none;font-weight:700;background:var(--accent);color:#09232b}.btn.secondary{background:transparent;color:var(--accent)}section{padding:68px 0;border-top:1px solid var(--line)}h2{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.2;margin:0 0 15px;letter-spacing:-.03em}.intro{color:var(--muted);max-width:780px;margin:0 0 30px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{padding:25px;background:var(--surface);border:1px solid var(--line);border-radius:16px}.card h3{margin:0 0 8px;font-size:1.14rem}.card p,.card li{color:var(--muted)}.card p:last-child{margin-bottom:0}.meta{font-size:.87rem;color:var(--accent)!important;margin:0 0 10px}.timeline{display:grid;gap:16px}.tags{display:flex;flex-wrap:wrap;gap:9px}.tag{border:1px solid #35516b;border-radius:100px;padding:5px 12px;color:#c8e6f0;background:#13243a;font-size:.87rem}.highlight{color:var(--blue)}footer{padding:35px 0;color:var(--muted);border-top:1px solid var(--line)}.footerline{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}ul{padding-left:20px}@media(max-width:700px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0;gap:8px}.navlinks{gap:12px}.navlinks a{font-size:.84rem}.hero{padding:70px 0}.grid{grid-template-columns:1fr}section{padding:50px 0}.card{padding:20px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Abhishek Anand</h1>
-    <p>Digital Transformation | GIS | Technology</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-    </nav>
-  </header>
-
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Technology and digital transformation
-      professional working on public digital
-      infrastructure and geospatial systems.</p>
-    </section>
-
-    <section id="experience">
-      <h2>Professional Experience</h2>
-      <p>Senior Consultant, Ernst & Young LLP.</p>
-      <p>Digital Crop Survey and Farmer Registry,
-      Bihar.</p>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <p>B.Tech Computer Engineering</p>
-      <p>M.Tech Remote Sensing / GIS</p>
-      <p>Birla Institute of Technology, Mesra</p>
-    </section>
-  </main>
-</body>
-</html>
+<header class="topbar"><nav class="nav wrap" aria-label="Primary navigation"><a class="brand" href="#home">AA<span class="highlight">.</span> Portfolio</a><div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#learning">Learning</a><a href="#contact">Contact</a></div></nav></header>
+<main>
+<div class="hero" id="home"><div class="wrap"><div class="eyebrow">Digital transformation · GIS · Public digital infrastructure</div><h1>Building technology that works <span class="highlight">for people.</span></h1><p>I'm Abhishek Anand, a technology and digital transformation professional working across large-scale public-sector programs, geospatial systems, data platforms, and service delivery. I'm expanding my hands-on engineering capabilities in full-stack development and AI.</p><div class="actions"><a class="btn" href="#projects">Explore my work</a><a class="btn secondary" href="https://github.com/manasvinAbhishek" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></div></div></div>
+<section id="about"><div class="wrap"><div class="eyebrow">01 / About</div><h2>Where technology meets execution</h2><p class="intro">My work connects policy and program objectives with real-world digital implementation: translating complex operational needs into requirements, coordinating stakeholders, investigating data issues, and supporting technology adoption at scale. I am especially interested in solutions that remain useful, understandable, and accessible to their end users.</p><div class="tags"><span class="tag">Digital public infrastructure</span><span class="tag">Program delivery</span><span class="tag">GIS & remote sensing</span><span class="tag">Data quality</span><span class="tag">Requirements & APIs</span><span class="tag">Product thinking</span></div></div></section>
+<section id="experience"><div class="wrap"><div class="eyebrow">02 / Experience</div><h2>Professional journey</h2><p class="intro">Experience spanning geospatial research, IT operations, and government technology transformation.</p><div class="timeline"><article class="card"><p class="meta">Jun 2023 – Present</p><h3>Senior Consultant · Ernst & Young LLP</h3><p>Supporting agricultural digital public infrastructure and technology-enabled program delivery for the Department of Agriculture, Bihar. Work includes Digital Crop Survey (since 2023), Farmer Registry (since 2025), geospatial data workflows, reporting, requirements, stakeholder coordination, and issue resolution.</p></article><article class="card"><p class="meta">Jul 2018 – May 2023</p><h3>Project Consultant · Ernst & Young LLP</h3><p>Supported public-sector digital transformation initiatives, technology program implementation, operational coordination, and digital service delivery.</p></article><article class="card"><p class="meta">2016 – 2018</p><h3>Supervisor IT · Bihar Vikas Mission</h3><p>Supported district-level IT operations and citizen-facing service delivery.</p></article><article class="card"><p class="meta">2015 – 2016</p><h3>Junior Research Fellow · Punjab Remote Sensing Centre</h3><p>Worked in geospatial research and remote sensing applications.</p></article></div></div></section>
+<section id="projects"><div class="wrap"><div class="eyebrow">03 / Selected work</div><h2>Programs and ideas</h2><div class="grid"><article class="card"><h3>Digital Crop Survey · Bihar</h3><p>Supporting digital plot-level crop survey operations, map and polygon data quality, reporting, field workflows, and technical issue analysis.</p><p class="meta">Public digital infrastructure · GIS · Delivery</p></article><article class="card"><h3>Farmer Registry · Bihar</h3><p>Supporting implementation and adoption of farmer identification infrastructure, coordination, data integration, and program monitoring.</p><p class="meta">AgriStack · Integration · Program management</p></article><article class="card"><h3>SocietyTrust <span class="highlight">· Concept</span></h3><p>Exploring an apartment-community platform centered on resident privacy, transparent profile-access records, community safety, and practical blockchain-backed accountability.</p><p class="meta">Product concept · Privacy · Safety</p></article><article class="card"><h3>Automation and applied AI <span class="highlight">· Exploration</span></h3><p>Learning to design reliable, human-supervised automation and AI workflows that reduce repetitive work without sacrificing accountability.</p><p class="meta">Python · AI engineering · Human-in-the-loop</p></article></div></div></section>
+<section id="education"><div class="wrap"><div class="eyebrow">04 / Academia</div><h2>Academic foundation</h2><div class="grid"><article class="card"><h3>M.Tech · Remote Sensing / GIS</h3><p>Birla Institute of Technology, Mesra</p></article><article class="card"><h3>B.Tech · Computer Engineering</h3><p>Birla Institute of Technology, Mesra</p></article><article class="card"><h3>GATE Scholar</h3><p>Academic foundation in engineering and technical problem-solving.</p></article><article class="card"><h3>Research publication</h3><p>Co-author of a 2018 paper in the <em>Journal of Atmospheric and Solar-Terrestrial Physics</em>.</p></article></div></div></section>
+<section id="learning"><div class="wrap"><div class="eyebrow">05 / Learning in public</div><h2>From program delivery to deeper engineering mastery</h2><p class="intro">My focus is to strengthen the ability to design, build, deploy, and evaluate software — not simply to learn frameworks by name. These are learning priorities, not claims of expert proficiency.</p><div class="grid"><article class="card"><h3>Programming & full stack</h3><p>Python fundamentals, Kotlin, web interfaces, APIs, databases, and system design.</p></article><article class="card"><h3>AI engineering</h3><p>LLM applications, agents, evaluation, responsible automation, and human oversight.</p></article><article class="card"><h3>Cloud & data</h3><p>AWS, deployment workflows, SQL, Power BI, and geospatial analysis.</p></article><article class="card"><h3>Product & delivery</h3><p>Agile practices, technical program management, architecture tradeoffs, and outcome-oriented product thinking.</p></article></div></div></section>
+<section id="contact"><div class="wrap"><div class="eyebrow">06 / Connect</div><h2>Let's build useful things.</h2><p class="intro">Interested in digital public infrastructure, GIS, software engineering, applied AI, and product-led technology delivery.</p><div class="actions"><a class="btn" href="https://github.com/manasvinAbhishek" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a><a class="btn secondary" href="https://github.com/manasvinAbhishek/Personal-profile-web" target="_blank" rel="noopener noreferrer">Portfolio source ↗</a></div></div></section>
+</main><footer><div class="wrap footerline"><span>© <span id="year">2026</span> Abhishek Anand</span><span>Built with HTML & CSS · Hosted on GitHub Pages</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
